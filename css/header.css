@@ -30,6 +30,7 @@
 
   &:hover {
     color: var(--orange-color);
+    transition: 0.2s;
   }
 
   &:active {
@@ -47,18 +48,35 @@
 }
 .contact__img {
 }
-.contact__texts:nth-child(1) {
-  width: 123px;
+.contact__texts {
 }
 .contact__us {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.5em;
   color: var(--gray-800-color);
+
+  &:hover {
+    color: var(--orange-color);
+    transition: 0.2s;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 .contact__link {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.5em;
   color: var(--gray-900-color);
+
+  &:hover {
+    color: var(--orange-color);
+    transition: 0.2s;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
