@@ -4,11 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  &:focus {
+    outline: 1px solid var(--gray-400-color);
+    outline-offset: 1px;
+  }
 }
 
 :root {
   --orange-color: #ff5a30;
   --white-color: #ffffff;
+  --gray-200-color: #f4f5f6;
+  --gray-400-color: #d7dadd;
+  --gray-600-color: #9a9ca5;
   --ubuntu-family: "Ubuntu", sans-serif;
 }
 
