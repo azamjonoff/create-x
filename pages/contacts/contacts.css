@@ -70,13 +70,11 @@
 .contactus__img {
 }
 .contactus__form {
-  width: 600px;
 }
 .footer__form {
 }
 .contactus__input_wrapper {
   display: flex;
-  align-items: center;
   gap: 3rem;
 }
 .contactus__input_wrap {
@@ -88,7 +86,6 @@
 .footer__inputs_1 {
 }
 .contactus__input {
-  width: 285px;
 }
 .footer__label {
   gap: 0.8rem;
@@ -101,19 +98,11 @@
   line-height: 1.6em;
   color: var(--gray-800-color);
 }
-.global__footer_input_text {
-}
-.global__footer_input {
-}
 .footer__checkbox {
 }
 .checkbox__rule {
 }
 .footer__inputs_btn {
-}
-.global__btn {
-}
-.global__btn_link {
 }
 
 /* MAIN END */
