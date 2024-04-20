@@ -1,0 +1,38 @@
+.wrapper__top {
+  background-color: var(--gray-200-color);
+  background-image: url("../../images/backround-header-bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__homepage {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-800-color);
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.hero__homepage span {
+  color: var(--gray-600-color);
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 1.3em;
+  letter-spacing: 0.1rem;
+  color: var(--gray-900-color);
+  margin-bottom: 24px;
+}
+.hero__description {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5em;
+  color: var(--gray-700-color);
+  width: 600px;
+  margin-bottom: 179px;
+}
