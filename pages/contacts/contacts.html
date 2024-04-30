@@ -177,11 +177,13 @@
                       <div class="contactus__input_wrap">
                         <label class="contactus__input">
                           Preferred contact method
-                          <div class="contactus__radio">
-                            <input class="radio" type="radio" />Phone
-                            <input class="radio" type="radio" />Email
-                            <input class="radio" type="radio" />Viber
-                          </div>
+                          <!-- <div class="contactus__radio"> -->
+                          <ul class="contactus__radio_list">
+                            <li><input class="radio" type="radio" />Phone</li>
+                            <li><input class="radio" type="radio" />Email</li>
+                            <li><input class="radio" type="radio" />Viber</li>
+                          </ul>
+                          <!-- </div> -->
                         </label>
                       </div>
                     </div>
@@ -189,7 +191,7 @@
                     <label class="footer__label contactus__input" for="massage"
                       >Massage*
                       <input
-                        class="global__footer_input_text global__footer_input"
+                        class="global__footer_input_text global__footer_input input__massage"
                         type="text"
                         id="massage"
                         name="massage"
@@ -198,22 +200,164 @@
                       />
                     </label>
 
-                    <div class="footer__checkbox">
-                      <input type="checkbox" id="checkbox" name="checkbox" />
-                      <span class="checkbox__rule"
-                        >I agree to receive communications from Createx <br />
-                        Construction Bureau.</span
-                      >
+                    <div class="agree">
+                      <div class="footer__checkbox">
+                        <input type="checkbox" id="checkbox" name="checkbox" />
+                        <span class="checkbox__rule"
+                          >I agree to receive communications from Createx
+                          Construction Bureau.</span
+                        >
+                      </div>
                     </div>
+                    <button
+                      class="footer__inputs_btn global__btn global__btn_link"
+                      type="submit"
+                    >
+                      send request
+                    </button>
                   </div>
-                  <button
-                    class="footer__inputs_btn global__btn global__btn_link"
-                    type="submit"
-                  >
-                    send request
-                  </button>
                 </form>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="office">
+        <div class="container">
+          <div class="office__wrraper">
+            <h2 class="office__title">Our offices</h2>
+            <p class="office__description">
+              Give us a call, send us a note or visit our office. We can’t wait
+              to hear from you!
+            </p>
+            <ul class="office__list">
+              <li class="office__item">
+                <h3 class="office__list_title">New York, USA</h3>
+                <div class="office__list_texts_wrap">
+                  <p class="office__list_texts">
+                    8502 Preston Rd. Inglewood, New York 98380
+                  </p>
+                  <a class="office__list_map_link" href="#">See on the map</a>
+                </div>
+                <div class="office__socials_wrap">
+                  <p class="office__socials_texts">
+                    Call:
+                    <span class="office__socials_texts_span"
+                      >(405) 555-0128</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Email:
+                    <span class="office__socials_texts_span"
+                      >hello@createx.com</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Schedule:
+                    <span class="office__socials_texts_span"
+                      >Mon - Fri 9:00 - 18:00</span
+                    >
+                  </p>
+                </div>
+              </li>
+              <li class="office__item">
+                <h3 class="office__list_title">New Jersey, USA</h3>
+                <div class="office__list_texts_wrap">
+                  <p class="office__list_texts">
+                    2464 Royal Ln. Mesa, New Jersey 45463
+                  </p>
+                  <a class="office__list_map_link" href="#">See on the map</a>
+                </div>
+                <div class="office__socials_wrap">
+                  <p class="office__socials_texts">
+                    Call:
+                    <span class="office__socials_texts_span"
+                      >(808) 555-0111</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Email:
+                    <span class="office__socials_texts_span"
+                      >hello@createx.com</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Schedule:
+                    <span class="office__socials_texts_span"
+                      >Mon - Fri 9:00 - 18:00</span
+                    >
+                  </p>
+                </div>
+              </li>
+              <li class="office__item">
+                <h3 class="office__list_title">San Francisco, USA</h3>
+                <div class="office__list_texts_wrap">
+                  <p class="office__list_texts">
+                    8502 Preston Rd. Inglewood, San Francisco 98380
+                  </p>
+                  <a class="office__list_map_link" href="#">See on the map</a>
+                </div>
+                <div class="office__socials_wrap">
+                  <p class="office__socials_texts">
+                    Call:
+                    <span class="office__socials_texts_span"
+                      >(505) 555-0125</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Email:
+                    <span class="office__socials_texts_span"
+                      >hello@createx.com</span
+                    >
+                  </p>
+                  <p class="office__socials_texts">
+                    Schedule:
+                    <span class="office__socials_texts_span"
+                      >Mon - Fri 10:00 - 19:00</span
+                    >
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="office__bottom_wrap">
+              <h2 class="office__bottom_title">Find us at</h2>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <img
+                    class="socials__img"
+                    src="../../images/WhatsApp.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="socials__item">
+                  <img
+                    class="socials__img"
+                    src="../../images/Vector.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="socials__item">
+                  <img
+                    class="socials__img"
+                    src="../../images/Vector-1.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="socials__item">
+                  <img
+                    class="socials__img"
+                    src="../../images/Vector-2.svg"
+                    alt=""
+                  />
+                </li>
+                <li class="socials__item">
+                  <img
+                    class="socials__img"
+                    src="../../images/youtube-com.svg"
+                    alt=""
+                  />
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -223,7 +367,7 @@
 
     <!-- FOOTER START -->
     <footer class="footer">
-      <div class="footer__inputs">
+      <!-- <div class="footer__inputs">
         <div class="footer__container container">
           <form class="footer__form" action="#" method="post">
             <h3 class="footer__form_title">A quick way to discuss details</h3>
@@ -292,7 +436,7 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
       <div class="footer__wrapper">
         <div class="container">
           <div class="footer__socials">
